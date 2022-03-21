@@ -72,6 +72,7 @@ public class WorldMeshGenerator : MonoBehaviour
 			int tileY = (int)(2 * uv.y);
 			int tileIndex = tileY * 4 + tileX;
 			renderObject.renderer.sharedMaterial = tiles[tileIndex].materialInstance;
+
 		}
 	}
 
